@@ -16,6 +16,7 @@ body
     font-size: 15px;
     margin: 0px;
     min-width: 840px;
+    user-select: none;
 }
 
 ::-webkit-scrollbar
