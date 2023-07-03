@@ -5,6 +5,11 @@
     src: url(font/Smiley-Sans.woff2);
 }
 
+@font-face {
+    font-family: Poppins-Sans;
+    src: url(font/Poppins-Sans.woff2);
+}
+
 html, body
 {
     scroll-behavior: smooth;
@@ -13,6 +18,7 @@ html, body
 body
 {
     background-color: #FFFFFF;
+    font-family: Poppins-Sans;
     font-size: 15px;
     margin: 0px;
     min-width: 840px;
@@ -51,6 +57,7 @@ button
 {
     border: none;
     cursor: pointer;
+    font-family: Poppins-Sans;
     margin: 0px;
     padding: 0px;
 }
