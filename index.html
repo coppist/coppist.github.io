@@ -1,76 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 
 <head>
-    <!--By Charles-->
+    <!-- Made by Alan Smith -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles</title>
+    <title>Alan Smith | 云雾散尽</title>
     <link rel="icon" type="image/svg+xml" href="image/icon.svg">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body onload="loading()">
-    <!--View-->
-    <div class="view" id="view">
-        <div class="view-title">Loading</div>
-    </div>
-    <!--Wallpaper-->
-    <div class="wallpaper">
-        <img src="image/image.jpg" alt="" height="100%" width="100%" class="wallpaper-style">
-    </div>
-    <!--Time-->
-    <div class="time">
-        <!--Title-->
-        <div class="time-title">
-            <div class="time-title-style">No more</div>
+<body>
+    <!-- Nav -->
+    <div class="nav">
+        <div class="nav-icon">
+            <a href="index.html">
+                <img src="image/icon.svg" alt="" width="40px" height="auto" class="nav-icon-style">
+            </a>
         </div>
-        <!--Display-->
-        <div class="time-display">
-            <!--Day-->
-            <div class="time-display-d time-display-style">
-                <div class="time-display-title">
-                    <div class="time-display-title-style">Day</div>
-                </div>
-                <div class="time-display-text">
-                    <div class="time-display-text-style" id="day">0</div>
-                </div>
+        <div class="nav-button">
+            <div class="nav-button-origin">
+                <a href="#">
+                    <button class="nav-button-style">起始</button>
+                </a>
             </div>
-            <!--Hour-->
-            <div class="time-display-h time-display-style">
-                <div class="time-display-title">
-                    <div class="time-display-title-style">hour</div>
-                </div>
-                <div class="time-display-text">
-                    <div class="time-display-text-style" id="hour">0</div>
-                </div>
+            <div class="nav-button-about">
+                <a href="#about">
+                    <button class="nav-button-style">关于</button>
+                </a>
             </div>
-            <!--Minute-->
-            <div class="time-display-m time-display-style">
-                <div class="time-display-title">
-                    <div class="time-display-title-style">minute</div>
-                </div>
-                <div class="time-display-text">
-                    <div class="time-display-text-style" id="minute">0</div>
-                </div>
+            <div class="nav-button-chat">
+                <a href="#chat">
+                    <button class="nav-button-style">动态</button>
+                </a>
             </div>
-            <!--Second-->
-            <div class="time-display-s time-display-style">
-                <div class="time-display-title">
-                    <div class="time-display-title-style">second</div>
-                </div>
-                <div class="time-display-text">
-                    <div class="time-display-text-style" id="second">0</div>
-                </div>
+            <div class="nav-button-log">
+                <a href="#log">
+                    <button class="nav-button-style">事件</button>
+                </a>
             </div>
         </div>
-        <!--note-->
-        <div class="time-note">
-            <div class="time-note-style">返校填写志愿倒计时 / Charles</div>
+    </div>
+    <!-- Origin -->
+    <div class="origin">
+        <img src="image/Valley.svg" alt="" width="100%" height="auto">
+    </div>
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="title">关于</div>
+        <div class="line"></div>
+        <div class="about-keyword">
+            <div class="about-keyword-1">
+                <button class="about-keyword-style">05后</button>
+            </div>
+            <div class="about-keyword-2">
+                <button class="about-keyword-style">ENFJ</button>
+            </div>
+            <div class="about-keyword-3">
+                <button class="about-keyword-style">IT</button>
+            </div>
+            <div class="about-keyword-4">
+                <button class="about-keyword-style">BS</button>
+            </div>
+        </div>
+        <div class="about-text">
+            <p class="about-text-style" style="margin-top: 0px;">始于盛夏，凋于寒冬</p>
+            <p class="about-text-style">欢迎来到我的个人主页</p>
+            <p class="about-text-style">我是Alan Smith</p>
+            <p class="about-text-style">也可以称呼我为Chester</p>
+            <p class="about-text-style">一位总是因为灵感问题而时常感到困惑的人</p>
+            <p class="about-text-style">热爱学习有关于计算机的知识</p>
+            <p class="about-text-style">无论是平面设计，还是Web前端开发</p>
+            <p class="about-text-style">热爱大自然，喜欢感受自然的气息，那是通往自由的道路</p>
+            <p class="about-text-style" style="margin-bottom: 0px;">人生路上多坎坷，余生，请多指教！</p>
+        </div>
+    </div>
+    <!-- Chat -->
+    <div class="chat" id="chat">
+        <div class="title">动态</div>
+        <div class="line"></div>
+        <div class="chat-blog">
+            <div class="chat-blog-style">
+                <div class="chat-blog-nav">
+                    <div class="chat-blog-nav-icon">
+                        <img src="image/Chester.png" alt="" width="40px" height="auto" class="chat-blog-nav-icon-style">
+                    </div>
+                    <div class="chat-blog-nav-message">Alan Smith</div>
+                    <div class="chat-blog-nav-button">
+                        <button class="chat-blog-nav-button-style">更多</button>
+                    </div>
+                </div>
+                <div class="chat-blog-title">随笔</div>
+                <div class="chat-blog-number">| 2023.2.2 发布于20:30</div>
+                <div class="chat-blog-text">
+                    <div class="chat-blog-text-style">
+                        <p class="chat-blog-text-sentence">System.out.println("HelloWorld")</p>
+                        <p class="chat-blog-text-sentence" style="color: #C8C8C8;">// Java</p>
+                    </div>
+                </div>
+                <div class="chat-blog-tag">
+                    <button class="chat-blog-tag-style">New</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Log -->
+    <div class="log" id="log">
+        <div class="title">事件</div>
+        <div class="line"></div>
+        <div class="log-style">
+            <div class="log-1-time">- 2021.9 -</div>
+            <div class="log-1">
+                <div class="log-tag">
+                    <button class="log-tag-style" style="background-color: #F5F5F5; color: #000000;">起始</button>
+                </div>
+                <div class="log-text">
+                    个人主页的想法开始在心底扎根发芽并尝试编写Demo
+                </div>
+            </div>
+            <div class="log-2-time">- 2023.1 -</div>
+            <div class="log-2">
+                <div class="log-tag">
+                    <button class="log-tag-style" style="background-color: #38E68C;">上线</button>
+                </div>
+                <div class="log-text">
+                    Hello, world!
+                </div>
+            </div>
+            <div class="log-3-time">- 2023.7.3 [1.1.000] -</div>
+            <div class="log-3">
+                <div class="log-tag">
+                    <button class="log-tag-style"
+                        style="background: linear-gradient(135deg, #F6D365, #FDA085);">探索</button>
+                </div>
+                <div class="log-text">
+                    仅展示时间最近的一次探索，包括改进、Debug等
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-map">
+            <div class="footer-map-tag">
+                <div class="footer-map-tag-line"></div>
+                <div class="footer-map-tag-text">网站地图</div>
+            </div>
+            <div class="footer-map-link">
+                <a href="index.html" target="_blank" class="footer-map-link-style">Alan Smith | 始于盛夏</a>
+                <p class="footer-map-link-style">下一代个人主页</p>
+                <p class="footer-map-link-style">Demo | 子项目合集</p>
+                <p class="footer-map-link-style">Issue | 建议与Bug反馈</p>
+            </div>
+        </div>
+        <div class="footer-link">
+            <div class="footer-map-tag">
+                <div class="footer-map-tag-line"></div>
+                <div class="footer-map-tag-text">友情链接</div>
+            </div>
+            <div class="footer-map-link">
+                <a href="https://lazycode2022.github.io" target="_blank" class="footer-map-link-style">Lazycat</a>
+                <p class="footer-map-link-style">Asriunm</p>
+            </div>
+            <div class="footer-link-thanks-tag">
+                <div class="footer-link-thanks-tag-line"></div>
+                <div class="footer-link-thanks-tag-text">特别感谢</div>
+            </div>
+            <div class="footer-link-thanks-link">
+                <a href="https://iconfont.cn" target="_blank" class="footer-map-link-style">Iconfont</a>
+            </div>
         </div>
     </div>
 </body>
-
-<script src="script.js"></script>
 
 </html>
